@@ -30,7 +30,7 @@ try {
             }
             arq.close();
         } catch (IOException e) { // Tratamento de exceção caso haja erro na abertura do arquivo.
-            System.err.printf("Ocorreu um erro na abertura do arquivo: %s.\nEscreva em seu arquivo para que ele seja criado no diretorio, assim poderá realizar a sua leitura\n", 
+            System.err.printf("Ocorreu um erro na abertura do arquivo: %s.\nEscreva em seu arquivo para que ele seja criado no diretorio(pasta do projeto), assim será possivel realizar a sua leitura.\n", 
                     e.getMessage());
         }
         System.out.println();
